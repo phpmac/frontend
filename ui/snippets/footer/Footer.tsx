@@ -34,25 +34,25 @@ const Footer = () => {
     {
       icon: 'edit' as const,
       iconSize: '16px',
-      text: 'Submit an issue',
+      text: '1111111111',
       url: issueUrl,
     },
     {
       icon: 'social/canny' as const,
       iconSize: '20px',
-      text: 'Feature request',
+      text: '2222222222',
       url: 'https://blockscout.canny.io/feature-requests',
     },
     {
       icon: 'social/git' as const,
       iconSize: '18px',
-      text: 'Contribute',
+      text: '3333333333',
       url: 'https://github.com/blockscout/blockscout',
     },
     {
       icon: 'social/twitter' as const,
       iconSize: '18px',
-      text: 'X (ex-Twitter)',
+      text: '4444444444',
       url: 'https://www.twitter.com/blockscoutcom',
     },
     {
