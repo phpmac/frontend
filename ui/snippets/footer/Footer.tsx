@@ -52,7 +52,7 @@ const Footer = () => {
     {
       icon: 'social/twitter' as const,
       iconSize: '18px',
-      text: 'X (ex-Twitter)',
+      text: 'X (ZTCGlobal)',
       url: 'https://twitter.com/ZTCGlobal',
     },
     {
@@ -75,7 +75,7 @@ const Footer = () => {
     // },
     // telegram
     {
-      icon: 'social/telegram' as const,
+      icon: 'social/telega' as const,
       iconSize: '20px',
       text: 'Telegram',
       url: 'https://t.me/ZTCCLASS',
