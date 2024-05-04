@@ -31,47 +31,54 @@ const Footer = () => {
   const apiVersionUrl = getApiVersionUrl(backendVersionData?.backend_version);
   const issueUrl = useIssueUrl(backendVersionData?.backend_version);
   const BLOCKSCOUT_LINKS = [
-    {
-      icon: 'edit' as const,
-      iconSize: '16px',
-      text: '1111111111',
-      url: issueUrl,
-    },
-    {
-      icon: 'social/canny' as const,
-      iconSize: '20px',
-      text: '2222222222',
-      url: 'https://blockscout.canny.io/feature-requests',
-    },
-    {
-      icon: 'social/git' as const,
-      iconSize: '18px',
-      text: '3333333333',
-      url: 'https://github.com/blockscout/blockscout',
-    },
+    // {
+    //   icon: 'edit' as const,
+    //   iconSize: '16px',
+    //   text: 'Submit an issue',
+    //   url: issueUrl,
+    // },
+    // {
+    //   icon: 'social/canny' as const,
+    //   iconSize: '20px',
+    //   text: 'Feature request',
+    //   url: 'https://blockscout.canny.io/feature-requests',
+    // },
+    // {
+    //   icon: 'social/git' as const,
+    //   iconSize: '18px',
+    //   text: 'Contribute',
+    //   url: 'https://github.com/blockscout/blockscout',
+    // },
     {
       icon: 'social/twitter' as const,
       iconSize: '18px',
-      text: '4444444444',
-      url: 'https://www.twitter.com/blockscoutcom',
+      text: 'X (ex-Twitter)',
+      url: 'https://twitter.com/ZTCGlobal',
     },
     {
       icon: 'social/discord' as const,
       iconSize: '24px',
-      text: '5555555555',
-      url: 'https://discord.gg/blockscout',
+      text: 'Discord',
+      url: 'https://discord.gg/9yEB946CXE',
     },
+    // {
+    //   icon: 'discussions' as const,
+    //   iconSize: '20px',
+    //   text: 'Discussions',
+    //   url: 'https://github.com/orgs/blockscout/discussions',
+    // },
+    // {
+    //   icon: 'donate' as const,
+    //   iconSize: '20px',
+    //   text: 'Donate',
+    //   url: 'https://github.com/sponsors/blockscout',
+    // },
+    // telegram
     {
-      icon: 'discussions' as const,
+      icon: 'social/telegram' as const,
       iconSize: '20px',
-      text: '6666666666',
-      url: 'https://github.com/orgs/blockscout/discussions',
-    },
-    {
-      icon: 'donate' as const,
-      iconSize: '20px',
-      text: '7777777777',
-      url: 'https://github.com/sponsors/blockscout',
+      text: 'Telegram',
+      url: 'https://t.me/ZTCCLASS',
     },
   ];
 
