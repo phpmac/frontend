@@ -43,12 +43,12 @@ const Footer = () => {
     //   text: 'Feature request',
     //   url: 'https://blockscout.canny.io/feature-requests',
     // },
-    // {
-    //   icon: 'social/git' as const,
-    //   iconSize: '18px',
-    //   text: 'Contribute',
-    //   url: 'https://github.com/blockscout/blockscout',
-    // },
+    {
+      icon: 'social/git' as const,
+      iconSize: '18px',
+      text: 'Contribute',
+      url: 'https://github.com/ztcchain',
+    },
     {
       icon: 'social/twitter' as const,
       iconSize: '18px',
