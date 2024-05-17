@@ -46,7 +46,7 @@ const Footer = () => {
     {
       icon: 'social/git' as const,
       iconSize: '18px',
-      text: 'Contribute',
+      text: 'ZTC Chain',
       url: 'https://github.com/ztcchain',
     },
     {
